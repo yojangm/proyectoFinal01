@@ -34,6 +34,8 @@ public class App {
 
         } while (option != 4);
 
+
+
     }
 
     public static void mostrarMenu(){
@@ -47,6 +49,13 @@ public class App {
     }
 
     public static void seleccionarNave(){
+
+        System.out.println("\n ---Menú Naves---");
+        System.out.println("1. Pelican.");
+        System.out.println("2. Atlantic.");
+        System.out.println("3. Estrella de la muerte.");
+        System.out.println("4. Halcon Milenatio");
+        System.out.println("5. Salir.");
 
     }
 
@@ -65,7 +74,7 @@ public class App {
     }
 
     public static void infoNaves(){
-        
+
     }
 
 }
