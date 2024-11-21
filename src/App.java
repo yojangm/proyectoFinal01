@@ -49,12 +49,40 @@ public class App {
 
     }
 
+    public static void seleccionarDestino(){
+
+        System.out.println("\n ---Menú Planetas---");
+        System.out.println("1. Marte.");
+        System.out.println("2. Jupiter.");
+        System.out.println("3. Saturno.");
+        System.out.println("4. Volver al menú principal.");
+
+        System.out.println("Seleccione el planeta al que desea ir.");
+        int option = scanner.nextInt();
+
+        switch (option) {
+            case 1:
+                System.out.printf("El planeta seleccionado es " + planetas[0] + " y la distancia a la que se encuentra es: " + distancias[0]);
+                break;
+            case 2:
+                System.out.println("El planeta seleccionado es " + planetas[1] + " y la distancia a la que se encuentra es: " + distancias[1]);
+                break;
+            case 3:
+                System.out.println("El planeta seleccionado es " + planetas[2] + " y la distancia a la que se encuentra es: " + distancias[2]);
+                break;
+
+            default: ;
+                break;
+        }
+
+    }
+
     public static void seleccionarNave(){
 
         System.out.println("\n ---Menú Naves---");
         System.out.println("1. Pelican.");
         System.out.println("2. Atlantic.");
-        System.out.println("3. Halcón Milenario");
+        System.out.println("3. Halcón Milenario.");
         System.out.println("4. Volver al menú principal.");
 
         System.out.println("Seleccione la nave");
@@ -76,9 +104,6 @@ public class App {
 
     }
 
-    public static void seleccionarDestino(){
-
-    }
 
     public static void calcularRecursos(){
 
