@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Hola yojan, pongase a trabajar en el proyecto.
+
 public class App {
 
     //Elementos necesariospara todas las acciones.
@@ -11,7 +13,8 @@ public class App {
     static double[] velocidades = {1000.0, 1200.0, 2000.0};
     static int[] capacidadTripulación = {14, 8, 20};
 
-    
+    static String[] eventos = {"Asteroides", "Fallas en el sistema", "desvios"};
+    static String[] recursos = {};
 
     static boolean salir = false;
     public static void main(String[] args) throws Exception {
