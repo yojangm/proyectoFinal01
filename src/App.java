@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class App {
     //holasoyyojan
+  
 
     //Elementos necesariospara todas las acciones.
     static Scanner scanner = new Scanner (System.in);
