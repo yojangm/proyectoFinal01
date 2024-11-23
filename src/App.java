@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-// Hola yojan, pongase a trabajar en el proyecto.
-//no joda brayan.
->>>>>>> 01d8d86251f243e3f8d4ed3235f3f0435d4d262a
 
 public class App {
 
