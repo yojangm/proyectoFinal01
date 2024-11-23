@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Hola yojan, pongase a trabajar en el proyecto.
 
 public class App {
 
